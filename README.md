@@ -20,9 +20,13 @@ Ouvrez simplement le fichier `index.html` dans votre navigateur pour visualiser 
 
 ## 🎨 Aperçu
 
-![Page de connexion - Vue desktop](assets/Screenshots/Screenshot-01.png)
+<div align="center">
+  <img src="assets/Screenshots/Screenshot-01.png" alt="Page de connexion - Vue desktop" width="600">
+</div>
 
-![Page de connexion - Vue mobile](assets/Screenshots/Screenshot-02.png)
+<div align="center">
+  <img src="assets/Screenshots/Screenshot-02.png" alt="Page de connexion - Vue mobile" width="400">
+</div>
 
 ## 🛠️ Technologies utilisées
 
