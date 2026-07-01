@@ -18,3 +18,9 @@ Ouvrez le fichier `index.html` dans votre navigateur pour visualiser la page.
 
 ## Objectif
 Créer une interface de connexion simple, propre et visuellement agréable pour un projet web de base.
+
+### Aperçu de l’interface
+
+![Description de la page](assets/Screenshots/Screenshot-01.png)
+
+![Description de la page](assets/Screenshots/Screenshot-02.png)
