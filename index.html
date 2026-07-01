@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Formulaire JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Login</h1>
+
+    <form action="login.php">
+      
+      <div class="input-box">
+        <input name="email" type="text" placeholder="email" required>
+        <i><img src="user-circle.svg" alt=""></i>
+      </div>
+
+      <div class="input-box">
+        <input name="password" type="password" placeholder="password" required>
+        <i class="bx  bxs-lock-alt"><img src="lock.svg" alt=""></i>
+      </div>
+
+      <div class="remember-forgot">
+      <label><input type="checkbox"> Remember me</label>
+      <a href="#">Forgot paswword ?</a>
+      </div>
+
+  
+      <button class="btn" type="submit">Login</button>
+
+      <div class="register-link"><p>Don't have an account? <a href="#">Register</a></p>
+      </div>
+          
+    </form>
+
+    <p id="message"></p> 
+  
+  </div>
+
+
+
+  <script>
+    const form = document.getElementById("formulaire"); //
+    const nomInput = document.getElementById("nom");    //
+    const message = document.getElementById("message"); //
+    const password = document.getElementById("password");
+
+    form.addEventListener("submit", function(event) {  
+      event.preventDefault(); // Empêche le rechargement
+
+      const nom = nomInput.value.trim(); //
+
+      if (nom === "") { //
+        message.textContent = "Le champ ne peut pas être vide.";
+        message.className = "error"; //
+      }
+      else if (nom.length < 3) {
+        message.textContent = "votre nom ne doit pas contenir moins de 3 caractères"
+        message.className = "error"
+      }else { //
+        message.textContent = "Bienvenue " + nom + " !";
+        message.className = "success"; //
+        
+      }
+    });
+  </script>
+
+</body>
+</html>
