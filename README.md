@@ -1,12 +1,21 @@
 # Login Page
 
-Cette page web simple présente un formulaire de connexion stylisé en HTML et CSS.
+Une simple page de connexion web réalisée en HTML et CSS avec une interface moderne et élégante.
 
-## Contenu
-- Interface de connexion moderne
-- Champ email et mot de passe
-- Bouton de connexion
-- Design responsive
+## Description
+Ce projet présente un formulaire de connexion stylisé avec :
+- un champ email,
+- un champ mot de passe,
+- un bouton de connexion,
+- un design visuel soigné.
 
 ## Utilisation
-Ouvrez le fichier `index.html` dans votre navigateur pour visualiser la page.
+1. Ouvrez le fichier `index.html` dans votre navigateur.
+2. Affichez la page de connexion.
+
+## Technologies utilisées
+- HTML
+- CSS
+
+## Objectif
+Créer une interface de connexion simple, propre et visuellement agréable pour un projet web de base.
